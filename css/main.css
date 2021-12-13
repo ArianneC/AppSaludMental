@@ -1,0 +1,61 @@
+body{
+    background: #f8f9fa;
+}
+#logo img{
+    width: 200px;
+}
+input{
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #00000029;
+    padding: 10px;
+    height: 40px;
+}
+mb-4{
+    margin-bottom: 1.5rem !important
+}
+text-black{
+    color: #000000;
+}
+button#registrate{
+    background-color: #8f98e9;
+    color: #ffffff;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold
+}
+.toggle-password {
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: -25px;
+}
+
+a#eye-off, a#eye-off-confirm{
+    position: absolute;
+    right: 16px;
+    height: 40px;
+    border-radius: 0 4px 0px 4px;
+}
+.btn-google{
+    background-color: #EA4335;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-color: #ccc;
+    font-weight: bold;
+}
+.btn-facebook{
+    background-color: #4267B2;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button#IniciaSesion{
+    background-color: #8f98e9;
+    border-color: transparent;
+    color: #ffffff;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
