@@ -1,34 +1,41 @@
-body{
+body {
     background: #f8f9fa;
 }
-#logo img{
+
+#logo img {
     width: 200px;
 }
-input{
+
+input {
     border: none;
     border-radius: 4px;
     box-shadow: 0 3px 6px #00000029;
     padding: 10px;
     height: 40px;
 }
-mb-4{
+
+mb-4 {
     margin-bottom: 1.5rem !important
 }
-text-black{
+
+text-black {
     color: #000000;
 }
-#registrate{
+
+#registrate {
     background-color: #8f98e9;
     height: 50px;
     border: none;
     align-items: center;
     display: inline-grid;
 }
-#registrate a{
+
+#registrate a {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .toggle-password {
     float: right;
     cursor: pointer;
@@ -36,31 +43,104 @@ text-black{
     margin-top: -25px;
 }
 
-a#eye-off, a#eye-off-confirm{
+a#eye-off,
+a#eye-off-confirm {
     position: absolute;
     right: 16px;
     height: 40px;
     border-radius: 0 4px 0px 4px;
 }
-.btn-google{
+
+.btn-google {
     background-color: #EA4335;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 0;
 }
-.btn-facebook{
+
+.btn-facebook {
     background-color: #4267B2;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 0;
 }
-button#IniciaSesion{
+
+button#IniciaSesion {
     background-color: #8f98e9;
     border-color: transparent;
     color: #ffffff;
     height: 50px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.logoapp-avatar img {
+    width: 100px !important;
+}
+
+.info-avatar {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+[type=radio] {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  [type=radio]:checked + span {
+    color: white;
+  }
+  
+  [type=radio] + img {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  [type=radio]:checked + img {
+    border: 4px solid #8f98e9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+  }
+  
+  .radio-container {
+    display: flex;
+  }
+
+  
+
+.avatar__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    -webkit-padding-start: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.avatar__container {
+    flex-basis: 33%;
+    margin: 15px 0;
+}
+
+.avatar__container label {
+    display: block;
+}
+
+.avatar__input {
+    display: none;
+}
+
+.avatar {
+    border-radius: 100%;
+    height: 82px;
+    width: 82px;
+    padding: 4px;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    background: #8f98e952;
 }
