@@ -17,13 +17,17 @@ mb-4{
 text-black{
     color: #000000;
 }
-button#registrate{
+#registrate{
     background-color: #8f98e9;
-    color: #ffffff;
     height: 50px;
     border: none;
+    align-items: center;
+    display: inline-grid;
+}
+#registrate a{
+    color: #ffffff;
     text-transform: uppercase;
-    font-weight: bold
+    font-weight: bold;
 }
 .toggle-password {
     float: right;
@@ -42,14 +46,15 @@ a#eye-off, a#eye-off-confirm{
     background-color: #EA4335;
     color: #ffffff;
     text-transform: uppercase;
-    border-color: #ccc;
     font-weight: bold;
+    border-radius: 0;
 }
 .btn-facebook{
     background-color: #4267B2;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
+    border-radius: 0;
 }
 button#IniciaSesion{
     background-color: #8f98e9;
