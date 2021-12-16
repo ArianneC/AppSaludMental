@@ -144,3 +144,161 @@ button#IniciaSesion {
     cursor: pointer;
     background: #8f98e952;
 }
+
+/** community**/
+
+.community-section p {
+    font-size: 16px;
+    color: #7b7979;
+    line-height: normal;
+}
+
+.initial-box{
+    padding: 12px 18px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px #dbdbdb;
+}
+
+.initial-box .title{
+    color: #8f98e9;
+    margin: 8px 0 4px 0;
+    display: block;
+}
+
+.box-post{
+    display: flex;
+    background: #ececec;
+    border-radius: 8px;
+    padding: 16px 12px;
+    margin-top: 20px;
+    align-items: center
+}
+
+.box-post a>img{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        background: #6f66ff;
+    }
+
+.publish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e4e4ee;
+    margin: 12px 0px;
+    padding-top: 12px;
+}
+
+.publish-image, .publish-video{
+    display: flex;
+    align-items: center;
+    padding: 8px 4px;
+    font-size: 14px;
+}
+
+.publish-image .icon, .publish-video .icon{
+    width: 18px;
+}
+
+.publish .btn{
+    float: right;
+    background: #8f98e9;
+    display: inline-block;
+    padding: 6px 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14.8px;
+}
+
+.publish-user{
+  display: flex;
+  align-items: center;
+}
+
+.user{
+    line-height: 1.2;
+}
+
+.publish-user .name{
+    font-weight: 700;
+    display: block;
+}
+
+.publish-user .date{
+    color: #7b7979;
+    font-size: 14px;
+}
+
+.photo-user a>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 12px;
+    border: 1px solid #d9d9d9;
+}
+
+.box-interaction{
+    border-top: 1px solid #d9d9d9;
+    padding-top: 12px;
+}
+
+.box-interaction ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.box-interaction span{
+    color: #7b7979;
+    font-size: 14px;
+}
+
+.box-interaction .icon{
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    margin-right: 1px;
+}
+
+.numbers{
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.numbers .icon{
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.float-interaction{
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    text-align: right;
+}
+
+.dropdown select{
+    background: #8f98e9;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 12px;
+}
+
+.dropdown span{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #5364f9;
+    font-weight: 600;
+}
