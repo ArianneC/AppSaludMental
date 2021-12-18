@@ -462,6 +462,12 @@ a#eye-off-confirm {
 }
 
 /* NAV */
+section#menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
 
 nav {
 	background: #fff;
@@ -505,16 +511,16 @@ nav a:before {
 }
 #home:checked ~ nav [for="home"],
 #courses:checked ~ nav [for="courses"],
-#posts:checked ~ nav [for="posts"],
-#more:checked ~ nav [for="books"] {
+#comunity:checked ~ nav [for="comunity"],
+#more:checked ~ nav [for="more"] {
 	color: #8f98e9;
 	font-weight: 600; 
     position: relative;
 }
-/* #courses:checked ~ nav [for="courses"] {
+#courses:checked ~ nav [for="courses"] {
 }
 #home:checked ~ nav [for="home"] {
-} */
+}
 
 #home:checked ~ nav:after {
 	left: 0;
@@ -523,7 +529,7 @@ nav a:before {
 	left: 25%;
 	border-top: 0 none;
 }
-#posts:checked ~ nav:after {
+#comunity:checked ~ nav:after {
 	left: 50%;
 }
 #more:checked ~ nav:after {
@@ -532,7 +538,7 @@ nav a:before {
 
 #home:checked ~ .uno,
 #courses:checked ~ .dos,
-#posts:checked ~ .tres,
+#comunity:checked ~ .tres,
 #more:checked ~ .cuatro {
 	display: block;
 	transform: scale(1);
