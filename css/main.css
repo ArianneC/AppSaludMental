@@ -460,3 +460,82 @@ a#eye-off-confirm {
 .dropdown#dropdownMenuButton:focus{
     border: transparent;
 }
+
+/* NAV */
+
+nav {
+	background: #fff;
+	width: 100%;
+	height: 5rem;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+nav i{
+    font-size: 2rem;
+}
+nav:after {
+	content: "";
+	width: 25%;
+	height: 5rem;
+	position: absolute;
+	transition: 0.5s;
+}
+nav:after i{
+    color: #8f98e9;
+}
+input#home, input#courses, input#comunity, input#more {
+	display: none;
+}
+nav a {
+	width: 25%;
+	float: left;
+	color: #bee3d1;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s;
+	z-index: 2;
+}
+nav a:hover {
+	color: #000000;
+}
+nav a:before {
+	display: block;
+	font-size: 3rem;
+	line-height: 5rem;
+	z-index: 2;
+}
+#home:checked ~ nav [for="home"],
+#courses:checked ~ nav [for="courses"],
+#posts:checked ~ nav [for="posts"],
+#more:checked ~ nav [for="books"] {
+	color: #8f98e9;
+	font-weight: 600; 
+    position: relative;
+}
+/* #courses:checked ~ nav [for="courses"] {
+}
+#home:checked ~ nav [for="home"] {
+} */
+
+#home:checked ~ nav:after {
+	left: 0;
+}
+#courses:checked ~ nav:after {
+	left: 25%;
+	border-top: 0 none;
+}
+#posts:checked ~ nav:after {
+	left: 50%;
+}
+#more:checked ~ nav:after {
+	left: 75%;
+}
+
+#home:checked ~ .uno,
+#courses:checked ~ .dos,
+#posts:checked ~ .tres,
+#more:checked ~ .cuatro {
+	display: block;
+	transform: scale(1);
+	transition-delay: 0.5s;
+}
+
